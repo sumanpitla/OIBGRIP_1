@@ -1,0 +1,87 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529;
+    margin: 0;
+    color: #ffff;
+    line-height:1.6;
+}
+a{
+    text-decoration: none;
+    color:#ccc
+}
+#showcase{
+    margin: 0;
+    padding:0;
+    background: url("wall3.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hideen;
+}
+#showcase .container{
+    margin-top: 25vh;
+}
+#showcase h1{
+    font-size: 4rem;/*root element font size*/
+    margin-bottom: 0;
+}
+#showcase h2{
+    font-size: 2rem;/*root element font size*/
+}
+
+ nav{
+    height: 80;
+    width: 100%;
+    background-color: #333;
+    color: rgb(51, 34, 34);
+    /*position: fixed;*/
+} 
+ nav ul{
+    margin: 0;
+    padding: 0;
+}
+ nav li{
+    display: inline;
+    float: left;
+ }
+ a{
+    display: inline-block;
+    color: aqua;
+    width: 100px;
+    font:200;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+ }
+ nav li:hover{
+background-color: #444;
+ }
+ .container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem;
+ }
+ .lead{
+    font-size: 1.3rem;
+ }
+footer .footer-cols{
+display: grid;
+grid-gap:20px;
+grid-template-columns: repeat(4,1fr);
+text-align: left;
+font-size: 14px;
+ }
+footer .footer-cols ul{
+    list-style: none;
+}
+footer .footer-cols ul li:first-child{
+    font-size:1.2rem;
+    padding-bottom:1.5rem ;
+    border-bottom:#444 solid 2px;
+}
+footer .footer-bottom{
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
